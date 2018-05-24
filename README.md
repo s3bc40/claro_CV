@@ -8,4 +8,4 @@ I'm still learning the web languages such as HTML/CSS and JavaScript, and the li
 I want to thank the [website w3School](https://www.w3schools.com/) for all the tutorials and templates, that permit to achieve my CV. :D 
 
 ## Requirement
-You have to install Yarn, a package manager to make it work. Go to their site to see more details : https://yarnpkg.com/lang/en/
+You have to install Yarn, a package manager to make it work. It allows me to make a node_module file with all dependancies. Go to their site to see more details : https://yarnpkg.com/lang/en/
