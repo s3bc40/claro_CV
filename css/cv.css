@@ -23,6 +23,13 @@ body {
     background-color: rgb(156, 35, 35);
     color: white;
 }
+/* Link hover */
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+}
 
 /*Skills section*/
 .progress {
