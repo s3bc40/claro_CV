@@ -5,7 +5,7 @@
 */
 
 /* Body */
-body {
+body html {
     background-color: rgb(238, 238, 238);
 }
 
@@ -243,4 +243,40 @@ a:hover {
         opacity: 1;
         -webkit-transform: translateY(0%);
     }
+}
+
+/* Print in a4 dimension pdf*/
+@page {
+    size: A3;
+    margin: 0;
+  }
+@media print {
+    body,html {
+        width: 210mm;
+        height: 297mm;
+        background-color: rgb(238, 238, 238);
+    }
+    .allContent {
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    .mainContent {
+        width: 960px;
+    }
+    .progress, .sideContent p {
+        max-width: 220px;
+    }
+    .sideContent .row  {
+        max-width: 260px;
+    }
+    .mainContent p {
+        max-width : 720px;
+    }
+    .timelineContent{
+        max-width: 780px;
+    }
+    .timeline p {
+        max-width: 600px;
+    }
+    
 }
