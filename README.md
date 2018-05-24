@@ -11,3 +11,6 @@ CV is still in french for the V1 but I intend to traduce it on english later.
 
 ## Requirement
 You have to install Yarn, a package manager to make it work. It allows me to make a node_module file with all dependancies. Go to their site to see more details : https://yarnpkg.com/lang/en/
+
+## Download CV in pdf format
+You can download with the link in the sidenav bar or you can print it in a file (Ctrl + p).
