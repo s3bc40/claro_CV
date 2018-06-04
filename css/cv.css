@@ -278,5 +278,10 @@ a:hover {
     .timeline p {
         max-width: 600px;
     }
-    
+    p, h6 {
+        font-weight: bolder;
+    }
+    .locInfo p, .timeLoc p {
+        font-size: 14px !important;
+    }
 }
