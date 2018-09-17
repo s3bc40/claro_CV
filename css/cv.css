@@ -25,10 +25,20 @@ body html {
 }
 /* Link hover */
 a {
+    text-decoration: none!important;
+}
+.sideContent a {
     color: white;
 }
-a:hover {
+.sideContent a:hover {
     color: white;
+    font-weight: bold;
+}
+.mainContent a{
+    color: black;
+}
+.mainContent a:hover{
+    color: rgb(156, 35, 35);
 }
 
 /*Skills section*/
@@ -58,11 +68,11 @@ a:hover {
 
 /* Main content layout */
 .locInfo p {
-    font-size: 9px !important;
+    font-size: 10px !important;
     color: rgb(133, 133, 133);
 }
 .textInfo {
-    font-size: 12px !important;
+    font-size: 13px !important;
     max-width: 800px;
 }
 .d-flex .p-2{
@@ -247,7 +257,7 @@ a:hover {
 
 /* Print in a4 dimension pdf*/
 @page {
-    size: A3;
+    size: A4;
     margin: 0;
   }
 @media print {
