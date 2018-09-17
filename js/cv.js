@@ -16,8 +16,8 @@ $(document).ready(function() { // w3school template animation
         }
         });
     });
-    // WIP to change download pdf and cv website
-    $("a").remove();
-    $("#contact").append('<a href="pdf/curriculum_vitae_CLARO.pdf" download="CV_CLARO"><p><i class="fa fa-github fa-contact"></i>&nbsp; CV au format pdf</p></a>')
+    // // WIP to change download pdf and cv website
+    // $("a").remove();
+    // $("#contact").append('<a href="pdf/curriculum_vitae_CLARO.pdf" download="CV_CLARO"><p><i class="fa fa-github fa-contact"></i>&nbsp; CV au format pdf</p></a>')
 
 })
