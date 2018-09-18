@@ -41,16 +41,19 @@ a {
     color: rgb(156, 35, 35);
 }
 
-/*Skills section*/
-.progress {
+/*Association section*/
+/* .progress {
     height: 5px;
     background-color: rgb(133, 133, 133);
 }
 .progress-bar {
     background-color: white;
-}
-.skills h6 {
+} */
+.perso h6 {
     margin-top: 20px;
+}
+h6 .textInfo {
+    margin-top:10px;
 }
 
 /*Intesrest content*/
@@ -160,9 +163,16 @@ a {
     color : rgb(223, 223, 223);
 }
 
-/*Exp perso content*/
-.contentPerso #right {
+/*Skills content*/
+.contentSkills h5 {
+    text-align: center;
+    padding-top: 10px;
+}
+.contentSkills #right {
     border-left: 0.5px solid rgb(190, 190, 190) ;
+}
+.lower{
+    border-top: 0.5px solid rgb(190, 190, 190) ;
 }
 
 /*font Awesome style*/
@@ -288,9 +298,9 @@ a {
     .timeline p {
         max-width: 600px;
     }
-    p, h6 {
+    /* p, h6 {
         font-weight: bolder;
-    }
+    } */
     .locInfo p, .timeLoc p {
         font-size: 14px !important;
     }
