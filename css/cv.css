@@ -56,6 +56,7 @@ h6 .textInfo {
     margin-top:10px;
 }
 
+
 /*Intesrest content*/
 .interestContent {
     padding-top: 20px;
@@ -286,8 +287,11 @@ h6 .textInfo {
     .progress, .sideContent p {
         max-width: 220px;
     }
-    .sideContent .row  {
+    .sideContent .row {
         max-width: 260px;
+    }
+    .sideContent ul{
+        max-width: 195px;;
     }
     .mainContent p {
         max-width : 720px;
